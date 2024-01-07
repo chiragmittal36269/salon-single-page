@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url("./assets//Rectangle\ 1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.5vw 5vw;
+    color: white;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-left a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-left a img {
+    width: 8vw;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+}
+
+.nav-right .left-links {
+    padding: 1vw 2vw;
+}
+
+.nav-right .left-links ul {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 4vw;
+    list-style-type: none;
+}
+
+.nav-right .left-links ul li:first-child a {
+    color: #fbb034;
+}
+
+.nav-right .left-links ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    /* font-size: 15px; */
+    font-size: 1.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-right .right-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-right .right-links .book {
+    /* padding: 10px 43px 10px 43px; */
+    padding: 1vw 3.5vw;
+    background-color: #fbb034;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-right .right-links .book a {
+    text-decoration: none;
+    font-weight: 700;
+    /* font-size: 15px; */
+    font-size: 1.3vw;
+    color: #000000;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+section .left-section {
+    width: 50vw;
+    padding-left: 7vw;
+    padding-top: 7vw;
+}
+
+section .left-section .heading1 {
+    font-family: "Jost", sans-serif;
+    color: #fbb034;
+    /* font-size: 16px; */
+    font-size: 2vw;
+    font-weight: 400;
+    /* margin-bottom: 30px; */
+    margin-bottom: 3vw;
+}
+
+section .left-section .heading2 {
+    color: #fff;
+    font-family: Poppins;
+    /* font-size: 48px; */
+    font-size: 2.4vw;
+    font-style: normal;
+    font-weight: 700;
+    /* margin-bottom: 20px; */
+    margin-bottom: 2vw;
+}
+
+section .left-section .heading3 {
+    color: #9a9a9a;
+    font-family: Poppins;
+    /* font-size: 21px; */
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 400;
+    /* margin-bottom: 100px; */
+    margin-bottom: 7vw;
+    /* width: 400px; */
+    width: 24vw;
+}
+
+section .right-section {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+section .left-section .buttons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2vw;
+}
+
+section .left-section .buttons .book {
+    /* padding: 10px 43px 10px 43px; */
+    padding: 1vw 3.5vw;
+    background-color: #fbb034;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .left-section .buttons .book a {
+    text-decoration: none;
+    font-weight: 700;
+    /* font-size: 15px; */
+    font-size: 1.3vw;
+    color: #000000;
+}
+
+section .left-section .buttons .book:hover {
+    background-color: #fbb034;
+    color: white;
+}
+
+section .left-section .buttons .all {
+    /* padding: 10px 43px 10px 43px; */
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 1vw 3.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .left-section .buttons .all a {
+    text-decoration: none;
+    font-weight: 700;
+    /* font-size: 15px; */
+    font-size: 1.3vw;
+    color: #ffffff;
+}
+
+section .right-section img {
+    /* width: 90%; */
+    width: 100%;
+    height: auto;
+    /* object-fit: contain; */
+}
+
+section > img {
+    position: absolute;
+    right: 35%;
+    bottom: 10%;
+    border-radius: 50%;
+    right: 36vw;
+    bottom: 4vw;
+    border-radius: 50%;
+    width: 3.5vw;
+}
